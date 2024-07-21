@@ -1,0 +1,51 @@
+
+.luxury {
+    height: 50%;
+}
+
+.indulgeInLuxury {
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+    height: 100vh;
+    color: whitesmoke;
+}
+
+.indulgeInLuxury h5 {
+    font-size: 14px;
+    letter-spacing: 5px;
+    width: 10vw;
+    text-align: center;
+    margin-top: -10%;
+    margin-bottom: 7%;
+}
+
+.indulgeInLuxury p {
+    font-size: 33px;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 30%;
+    width: 50vw;
+    text-align: center;
+
+}
+
+.indulgeInLuxury span {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.indulgeInLuxury span:hover {
+    transform: scale(1.5);
+}
+.pseudoLinie {
+    z-index: -1;
+    position: absolute;
+    width: 82vw;
+}

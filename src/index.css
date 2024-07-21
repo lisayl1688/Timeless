@@ -1,0 +1,16 @@
+@font-face {
+    font-family: OstrichSans-Light;
+    src: url(./assets/fonts/fonts/OstrichSans-Light.otf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-family: OstrichSans-Light;
+
+}

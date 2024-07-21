@@ -1,0 +1,29 @@
+.heroPic{
+    width: 100vw;
+    z-index: -1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    object-fit: cover;
+}
+
+h1 {
+    position: fixed;
+    top: 83%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    letter-spacing: 0.9em;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.logo-svg{
+    position: fixed;
+    z-index: 3;
+}

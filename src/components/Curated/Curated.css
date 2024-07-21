@@ -1,0 +1,41 @@
+.curatedWrapper {
+    background-color: #121212;
+    position: sticky;
+    z-index: 2;
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5%;
+    text-align: center;
+
+}
+/* Bilder anpassen */
+
+.curatedPics {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box; /* Apply border-box sizing to the flex container */
+}
+
+.goldUhr, .diamantRing, .raumDuft {
+    box-sizing: border-box; /* Apply border-box sizing to all flex items */
+}
+
+.goldUhr {
+    width: 35vw;
+    height: 35%;
+}
+
+.diamantRing {
+    width: 20vw;
+    height: 30%;
+}
+
+.raumDuft {
+    width: 35vw;
+    height: 35%;
+    border: 2px solid red;
+
+}
